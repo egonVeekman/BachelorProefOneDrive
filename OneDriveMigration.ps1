@@ -32,8 +32,6 @@ $pathExists = $false
 #Create variable to make pop-ups.
 $popUp = New-Object -ComObject wscript.shell
 
-# Declare boolean
-$pathExists = $false
 
 #Check if OneDrive for business is installed. If not, notify the user with popup and abort the process.
 if($destination -eq $null)
