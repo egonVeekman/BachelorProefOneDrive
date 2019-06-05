@@ -22,8 +22,7 @@ if ($TestH -eq $false)
 }
 
 
-# Creates path where files have to be copied to
-$destinationFolder = Join-Path $destination "\HomeDrive"
+
 
 # Declare boolean
 $pathExists = $false
@@ -38,6 +37,9 @@ if($destination -eq $null)
     $popUp.Popup("OneDrive - <company> map not found , make sure OneDrive For Business is installed")
     exit
 }
+
+# Creates path where files have to be copied to
+$destinationFolder = Join-Path $destination "\HomeDrive"
 
 ####################
 ######function#####
