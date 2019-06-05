@@ -24,7 +24,6 @@ if ($TestH -eq $false)
 
 # Creates path where files have to be copied to
 $destinationFolder = Join-Path $destination "\HomeDrive"
-#$destinationTestFolder = Join-Path $destination "\Test"
 
 # Declare boolean
 $pathExists = $false
